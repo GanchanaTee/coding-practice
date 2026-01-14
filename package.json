@@ -1,0 +1,22 @@
+{
+	"name": "coding-practice",
+	"version": "1.0.0",
+	"description": "ตะลุยโจทย์ Coding ฝึกฝนการเขียนโปรแกรม JavaScript",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest",
+		"test:watch": "jest --watch",
+		"test:coverage": "jest --coverage",
+		"playground": "jest playground",
+		"playground:watch": "jest --watch playground"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@babel/core": "^7.28.6",
+		"@babel/preset-env": "^7.28.6",
+		"babel-jest": "^30.2.0",
+		"jest": "^30.2.0"
+	}
+}
