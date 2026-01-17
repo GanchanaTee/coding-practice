@@ -42,6 +42,10 @@ function containsDuplicate(nums) {
 	// TODO: Implement your solution here
 	// Hint: Use a Set to track seen elements
 	// Your code goes here...
+	//
+	const numsSet = new Set(nums);
+
+	return numsSet.size !== nums.length;
 }
 
 // Export for testing

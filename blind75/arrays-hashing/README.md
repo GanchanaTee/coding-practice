@@ -7,7 +7,7 @@ This directory contains solutions for the Arrays & Hashing problems from the Bli
 | # | Problem | Difficulty | Status | LeetCode |
 |---|---------|------------|--------|----------|
 | 1 | [Two Sum](./two-sum.js) | Easy | ✅ | [1](https://leetcode.com/problems/two-sum/) |
-| 2 | [Contains Duplicate](./contains-duplicate.js) | Easy | ⬜ | [217](https://leetcode.com/problems/contains-duplicate/) |
+| 2 | [Contains Duplicate](./contains-duplicate.js) | Easy | ✅ | [217](https://leetcode.com/problems/contains-duplicate/) |
 | 3 | [Valid Anagram](./valid-anagram.js) | Easy | ⬜ | [242](https://leetcode.com/problems/valid-anagram/) |
 | 4 | [Group Anagrams](./group-anagrams.js) | Medium | ⬜ | [49](https://leetcode.com/problems/group-anagrams/) |
 | 5 | [Top K Frequent Elements](./top-k-frequent-elements.js) | Medium | ✅ | [347](https://leetcode.com/problems/top-k-frequent-elements/) |
@@ -18,7 +18,7 @@ This directory contains solutions for the Arrays & Hashing problems from the Bli
 ## 📊 Progress
 
 ```
-Total: 8 | Completed: 2 | In Progress: 0 | Remaining: 6
+Total: 8 | Completed: 3 | In Progress: 0 | Remaining: 5
 ```
 
 ## 📂 File Structure

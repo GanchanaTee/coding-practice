@@ -2,7 +2,7 @@
 
 ## Overall Progress
 - **Total Problems:** 75
-- **Completed:** 2
+- **Completed:** 3
 - **In Progress:** 0
 - **Generated:** 8 (All Arrays & Hashing problems ready)
 - **Remaining:** 67
@@ -14,14 +14,14 @@
 | Problem | Status | Date Completed |
 |---------|--------|----------------|
 | Two Sum | ✅ | 2026-01-16 |
-| Contains Duplicate | ⬜ | - | 📝 |
+| Contains Duplicate | ✅ | 2026-01-17 | 📝 |
 | Valid Anagram | ⬜ | - | 📝 |
 | Group Anagrams | ⬜ | - | 📝 |
 | Top K Frequent Elements | ✅ | 2026-01-17 | 📝 |
 | Product of Array Except Self | ⬜ | - | 📝 |
 | Valid Sudoku | ⬜ | - | 📝 |
 | Longest Consecutive Sequence | ⬜ | - | 📝 |
-| **Progress:** 2/8 | | |
+| **Progress:** 3/8 | | |
 | **Status:** All problems generated with test cases | |
 
 ---
