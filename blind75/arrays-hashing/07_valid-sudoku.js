@@ -1,5 +1,5 @@
 /**
- * Problem: Valid Sudoku
+ * Problem: Valid Sudoku (Arrays & Hashing #7)
  * Difficulty: Medium
  * LeetCode #: 36
  *
@@ -74,7 +74,7 @@ export default isValidSudoku;
  * To test this solution:
  *
  * 1. Run tests:
- *    npm test -- blind75/arrays-hashing/__spec__/valid-sudoku.spec.js
+ *    npm test -- blind75/arrays-hashing/__spec__/07_valid-sudoku.spec.js
  *
  * 2. Run tests in watch mode:
  *    npm run test:watch

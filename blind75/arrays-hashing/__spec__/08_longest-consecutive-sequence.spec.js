@@ -1,4 +1,4 @@
-import longestConsecutive from "../longest-consecutive-sequence.js";
+import longestConsecutive from "../08_longest-consecutive-sequence.js";
 
 describe("Longest Consecutive Sequence", () => {
 	// Basic Example Tests

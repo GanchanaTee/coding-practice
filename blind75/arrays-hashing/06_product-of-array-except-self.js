@@ -1,5 +1,5 @@
 /**
- * Problem: Product of Array Except Self
+ * Problem: Product of Array Except Self (Arrays & Hashing #6)
  * Difficulty: Medium
  * LeetCode #: 238
  *
@@ -64,7 +64,7 @@ export default productExceptSelf;
  * To test this solution:
  *
  * 1. Run tests:
- *    npm test -- blind75/arrays-hashing/__spec__/product-of-array-except-self.spec.js
+ *    npm test -- blind75/arrays-hashing/__spec__/06_product-of-array-except-self.spec.js
  *
  * 2. Run tests in watch mode:
  *    npm run test:watch

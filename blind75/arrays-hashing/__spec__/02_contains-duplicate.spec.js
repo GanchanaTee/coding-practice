@@ -1,4 +1,4 @@
-import containsDuplicate from "../contains-duplicate.js";
+import containsDuplicate from "../02_contains-duplicate.js";
 
 describe("Contains Duplicate", () => {
 	// Basic Example Tests

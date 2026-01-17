@@ -1,4 +1,4 @@
-import productExceptSelf from "../product-of-array-except-self.js";
+import productExceptSelf from "../06_product-of-array-except-self.js";
 
 describe("Product of Array Except Self", () => {
 	// Basic Example Tests

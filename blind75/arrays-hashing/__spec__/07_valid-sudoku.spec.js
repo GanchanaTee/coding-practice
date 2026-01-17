@@ -1,4 +1,4 @@
-import isValidSudoku from "../valid-sudoku.js";
+import isValidSudoku from "../07_valid-sudoku.js";
 
 describe("Valid Sudoku", () => {
 	// Basic Example Tests

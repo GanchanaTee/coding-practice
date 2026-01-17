@@ -1,4 +1,4 @@
-import groupAnagrams from "../group-anagrams.js";
+import groupAnagrams from "../04_group-anagrams.js";
 
 describe("Group Anagrams", () => {
 	// Helper function to sort arrays within arrays for comparison

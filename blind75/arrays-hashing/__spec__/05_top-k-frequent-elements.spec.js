@@ -1,4 +1,4 @@
-import topKFrequent from "../top-k-frequent-elements.js";
+import topKFrequent from "../05_top-k-frequent-elements.js";
 
 describe("Top K Frequent Elements", () => {
 	// Helper function to sort arrays for comparison

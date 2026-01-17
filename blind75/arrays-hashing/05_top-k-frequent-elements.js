@@ -1,5 +1,5 @@
 /**
- * Problem: Top K Frequent Elements
+ * Problem: Top K Frequent Elements (Arrays & Hashing #5)
  * Difficulty: Medium
  * LeetCode #: 347
  *
@@ -72,7 +72,7 @@ export default topKFrequent;
  * To test this solution:
  *
  * 1. Run tests:
- *    npm test -- blind75/arrays-hashing/__spec__/top-k-frequent-elements.spec.js
+ *    npm test -- blind75/arrays-hashing/__spec__/05_top-k-frequent-elements.spec.js
  *
  * 2. Run tests in watch mode:
  *    npm run test:watch

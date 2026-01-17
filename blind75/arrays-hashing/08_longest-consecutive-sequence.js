@@ -1,5 +1,5 @@
 /**
- * Problem: Longest Consecutive Sequence
+ * Problem: Longest Consecutive Sequence (Arrays & Hashing #8)
  * Difficulty: Medium
  * LeetCode #: 128
  *
@@ -58,7 +58,7 @@ export default longestConsecutive;
  * To test this solution:
  *
  * 1. Run tests:
- *    npm test -- blind75/arrays-hashing/__spec__/longest-consecutive-sequence.spec.js
+ *    npm test -- blind75/arrays-hashing/__spec__/08_longest-consecutive-sequence.spec.js
  *
  * 2. Run tests in watch mode:
  *    npm run test:watch

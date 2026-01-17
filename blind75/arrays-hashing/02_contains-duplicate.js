@@ -1,5 +1,5 @@
 /**
- * Problem: Contains Duplicate
+ * Problem: Contains Duplicate (Arrays & Hashing #2)
  * Difficulty: Easy
  * LeetCode #: 217
  *
@@ -58,7 +58,7 @@ export default containsDuplicate;
  * To test this solution:
  *
  * 1. Run tests:
- *    npm test -- blind75/arrays-hashing/__spec__/contains-duplicate.spec.js
+ *    npm test -- blind75/arrays-hashing/__spec__/02_contains-duplicate.spec.js
  *
  * 2. Run tests in watch mode:
  *    npm run test:watch

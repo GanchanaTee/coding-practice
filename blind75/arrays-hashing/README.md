@@ -6,14 +6,14 @@ This directory contains solutions for the Arrays & Hashing problems from the Bli
 
 | # | Problem | Difficulty | Status | LeetCode |
 |---|---------|------------|--------|----------|
-| 1 | [Two Sum](./two-sum.js) | Easy | ✅ | [1](https://leetcode.com/problems/two-sum/) |
-| 2 | [Contains Duplicate](./contains-duplicate.js) | Easy | ✅ | [217](https://leetcode.com/problems/contains-duplicate/) |
-| 3 | [Valid Anagram](./valid-anagram.js) | Easy | ✅ | [242](https://leetcode.com/problems/valid-anagram/) |
-| 4 | [Group Anagrams](./group-anagrams.js) | Medium | ✅ | [49](https://leetcode.com/problems/group-anagrams/) |
-| 5 | [Top K Frequent Elements](./top-k-frequent-elements.js) | Medium | ✅ | [347](https://leetcode.com/problems/top-k-frequent-elements/) |
-| 6 | [Product of Array Except Self](./product-of-array-except-self.js) | Medium | ⬜ | [238](https://leetcode.com/problems/product-of-array-except-self/) |
-| 7 | [Valid Sudoku](./valid-sudoku.js) | Medium | ⬜ | [36](https://leetcode.com/problems/valid-sudoku/) |
-| 8 | [Longest Consecutive Sequence](./longest-consecutive-sequence.js) | Medium | ⬜ | [128](https://leetcode.com/problems/longest-consecutive-sequence/) |
+| 1 | [Two Sum](./01_two-sum.js) | Easy | ✅ | [1](https://leetcode.com/problems/two-sum/) |
+| 2 | [Contains Duplicate](./02_contains-duplicate.js) | Easy | ✅ | [217](https://leetcode.com/problems/contains-duplicate/) |
+| 3 | [Valid Anagram](./03_valid-anagram.js) | Easy | ✅ | [242](https://leetcode.com/problems/valid-anagram/) |
+| 4 | [Group Anagrams](./04_group-anagrams.js) | Medium | ✅ | [49](https://leetcode.com/problems/group-anagrams/) |
+| 5 | [Top K Frequent Elements](./05_top-k-frequent-elements.js) | Medium | ✅ | [347](https://leetcode.com/problems/top-k-frequent-elements/) |
+| 6 | [Product of Array Except Self](./06_product-of-array-except-self.js) | Medium | ⬜ | [238](https://leetcode.com/problems/product-of-array-except-self/) |
+| 7 | [Valid Sudoku](./07_valid-sudoku.js) | Medium | ⬜ | [36](https://leetcode.com/problems/valid-sudoku/) |
+| 8 | [Longest Consecutive Sequence](./08_longest-consecutive-sequence.js) | Medium | ⬜ | [128](https://leetcode.com/problems/longest-consecutive-sequence/) |
 
 ## 📊 Progress
 
@@ -26,23 +26,23 @@ Total: 8 | Completed: 5 | In Progress: 0 | Remaining: 3
 ```
 arrays-hashing/
 ├── README.md                                  # This file
-├── two-sum.js                                # Solution for Two Sum
-├── contains-duplicate.js                      # Solution for Contains Duplicate
-├── valid-anagram.js                          # Solution for Valid Anagram
-├── group-anagrams.js                         # Solution for Group Anagrams
-├── top-k-frequent-elements.js                # Solution for Top K Frequent Elements
-├── product-of-array-except-self.js            # Solution for Product of Array Except Self
-├── valid-sudoku.js                          # Solution for Valid Sudoku
-├── longest-consecutive-sequence.js            # Solution for Longest Consecutive Sequence
+├── 01_two-sum.js                            # Solution for Two Sum
+├── 02_contains-duplicate.js                  # Solution for Contains Duplicate
+├── 03_valid-anagram.js                      # Solution for Valid Anagram
+├── 04_group-anagrams.js                     # Solution for Group Anagrams
+├── 05_top-k-frequent-elements.js            # Solution for Top K Frequent Elements
+├── 06_product-of-array-except-self.js        # Solution for Product of Array Except Self
+├── 07_valid-sudoku.js                      # Solution for Valid Sudoku
+├── 08_longest-consecutive-sequence.js      # Solution for Longest Consecutive Sequence
 └── __spec__/                                # Test files folder
-    ├── two-sum.spec.js                       # Jest tests for Two Sum
-    ├── contains-duplicate.spec.js             # Jest tests for Contains Duplicate
-    ├── valid-anagram.spec.js                 # Jest tests for Valid Anagram
-    ├── group-anagrams.spec.js                # Jest tests for Group Anagrams
-    ├── top-k-frequent-elements.spec.js       # Jest tests for Top K Frequent Elements
-    ├── product-of-array-except-self.spec.js   # Jest tests for Product of Array Except Self
-    ├── valid-sudoku.spec.js                 # Jest tests for Valid Sudoku
-    └── longest-consecutive-sequence.spec.js   # Jest tests for Longest Consecutive Sequence
+    ├── 01_two-sum.spec.js                   # Jest tests for Two Sum
+    ├── 02_contains-duplicate.spec.js         # Jest tests for Contains Duplicate
+    ├── 03_valid-anagram.spec.js             # Jest tests for Valid Anagram
+    ├── 04_group-anagrams.spec.js            # Jest tests for Group Anagrams
+    ├── 05_top-k-frequent-elements.spec.js   # Jest tests for Top K Frequent Elements
+    ├── 06_product-of-array-except-self.spec.js # Jest tests for Product of Array Except Self
+    ├── 07_valid-sudoku.spec.js             # Jest tests for Valid Sudoku
+    └── 08_longest-consecutive-sequence.spec.js # Jest tests for Longest Consecutive Sequence
 ```
 
 ## 🎯 Key Concepts
@@ -126,7 +126,7 @@ Each problem has a corresponding test file in the `__spec__` folder:
 
 ```bash
 # Run tests for a specific problem
-npm test -- blind75/arrays-hashing/__spec__/two-sum.spec.js
+npm test -- blind75/arrays-hashing/__spec__/01_two-sum.spec.js
 
 # Run all tests in this category
 npm test -- blind75/arrays-hashing/__spec__

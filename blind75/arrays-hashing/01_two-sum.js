@@ -1,5 +1,5 @@
 /**
- * Problem: Two Sum
+ * Problem: Two Sum (Arrays & Hashing #1)
  * Difficulty: Easy
  *
  * Given an array of integers nums and an integer target, return indices of the two numbers

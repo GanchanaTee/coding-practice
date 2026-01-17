@@ -1,4 +1,4 @@
-import isAnagram from "../valid-anagram.js";
+import isAnagram from "../03_valid-anagram.js";
 
 describe("Valid Anagram", () => {
 	// Basic Example Tests

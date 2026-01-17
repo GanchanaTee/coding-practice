@@ -1,5 +1,5 @@
 /**
- * Problem: Group Anagrams
+ * Problem: Group Anagrams (Arrays & Hashing #4)
  * Difficulty: Medium
  * LeetCode #: 49
  *
@@ -78,7 +78,7 @@ export default groupAnagrams;
  * To test this solution:
  *
  * 1. Run tests:
- *    npm test -- blind75/arrays-hashing/__spec__/group-anagrams.spec.js
+ *    npm test -- blind75/arrays-hashing/__spec__/04_group-anagrams.spec.js
  *
  * 2. Run tests in watch mode:
  *    npm run test:watch

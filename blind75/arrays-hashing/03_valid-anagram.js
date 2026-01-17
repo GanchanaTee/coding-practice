@@ -1,5 +1,5 @@
 /**
- * Problem: Valid Anagram
+ * Problem: Valid Anagram (Arrays & Hashing #3)
  * Difficulty: Easy
  * LeetCode #: 242
  *
@@ -59,7 +59,7 @@ export default isAnagram;
  * To test this solution:
  *
  * 1. Run tests:
- *    npm test -- blind75/arrays-hashing/__spec__/valid-anagram.spec.js
+ *    npm test -- blind75/arrays-hashing/__spec__/03_valid-anagram.spec.js
  *
  * 2. Run tests in watch mode:
  *    npm run test:watch
