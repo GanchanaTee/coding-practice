@@ -43,6 +43,10 @@ function isAnagram(s, t) {
 	// TODO: Implement your solution here
 	// Hint: Use hash map or array to count character frequencies
 	// Your code goes here...
+	//
+	const sortedS = s.split("").sort().join("");
+	const sortedT = t.split("").sort().join("");
+	return sortedS === sortedT;
 }
 
 // Export for testing

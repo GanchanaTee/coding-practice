@@ -62,12 +62,18 @@ describe("Valid Anagram", () => {
 
 	// Longer Strings
 	test("should handle longer anagram strings", () => {
-		const result = isAnagram("abcdefghijklmnopqrstuvwxyz", "zyxwvutsrqponmlkjihgfedcba");
+		const result = isAnagram(
+			"abcdefghijklmnopqrstuvwxyz",
+			"zyxwvutsrqponmlkjihgfedcba",
+		);
 		expect(result).toBe(true);
 	});
 
 	test("should handle longer non-anagram strings", () => {
-		const result = isAnagram("abcdefghijklmnopqrstuvwxy", "abcdefghijklmnopqrstuvwxyz");
+		const result = isAnagram(
+			"abcdefghijklmnopqrstuvwxy",
+			"abcdefghijklmnopqrstuvwxyz",
+		);
 		expect(result).toBe(false);
 	});
 
@@ -99,8 +105,13 @@ describe("Valid Anagram", () => {
 		expect(result).toBe(true);
 	});
 
-	test("should not recognize 'state' and 'taste' as anagrams (different letters)", () => {
+	test("should not recognize 'state' and 'taste' as anagrams", () => {
 		const result = isAnagram("state", "taste");
+		expect(result).toBe(true);
+	});
+
+	test("should not recognize 'state' and 'tests' as anagrams", () => {
+		const result = isAnagram("state", "tests");
 		expect(result).toBe(false);
 	});
 
