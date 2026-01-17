@@ -54,8 +54,8 @@ describe("Longest Consecutive Sequence", () => {
 		expect(result).toBe(5);
 	});
 
-	// Duplicate Elements
-	test("should handle duplicate elements", () => {
+	// Duplicate Elements - should be ignored in consecutive sequence
+	test("should ignore duplicate elements", () => {
 		const result = longestConsecutive([1, 1, 2, 2, 3, 3]);
 		expect(result).toBe(3);
 	});
@@ -167,8 +167,8 @@ describe("Longest Consecutive Sequence", () => {
 		expect(result).toBe(3);
 	});
 
-	// All Same Numbers (Edge Case)
-	test("should handle all same numbers", () => {
+	// All Same Numbers (Edge Case) - duplicates should count as single element
+	test("should handle all same numbers as single element", () => {
 		const result = longestConsecutive([7, 7, 7, 7, 7]);
 		expect(result).toBe(1);
 	});

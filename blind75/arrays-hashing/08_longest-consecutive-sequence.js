@@ -46,6 +46,30 @@ function longestConsecutive(nums) {
 	// TODO: Implement your solution here
 	// Hint: Use a set for O(1) lookups and only start counting from sequence starts
 	// Your code goes here...
+	//
+
+	if (!nums.length || nums.length === 1) {
+		return nums.length;
+	}
+
+	const sortedNums = nums.toSorted((a, b) => a - b);
+
+	let longestConsecutive = 1;
+	let currentConsective = 1;
+
+	for (index in sortedNums) {
+		if (index && sortedNums[index] === sortedNums[index - 1] + 1) {
+			currentConsective++;
+		} else if (
+			currentConsective > 1 &&
+			sortedNums[index] !== sortedNums[index - 1]
+		) {
+			longestConsecutive = Math.max(longestConsecutive, currentConsective);
+			currentConsective = 1;
+		}
+	}
+
+	return Math.max(longestConsecutive, currentConsective);
 }
 
 // Export for testing

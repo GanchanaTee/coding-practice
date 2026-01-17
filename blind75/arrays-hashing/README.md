@@ -13,12 +13,12 @@ This directory contains solutions for the Arrays & Hashing problems from the Bli
 | 5 | [Top K Frequent Elements](./05_top-k-frequent-elements.js) | Medium | ✅ | [347](https://leetcode.com/problems/top-k-frequent-elements/) |
 | 6 | [Product of Array Except Self](./06_product-of-array-except-self.js) | Medium | ⬜ | [238](https://leetcode.com/problems/product-of-array-except-self/) |
 | 7 | [Valid Sudoku](./07_valid-sudoku.js) | Medium | ⬜ | [36](https://leetcode.com/problems/valid-sudoku/) |
-| 8 | [Longest Consecutive Sequence](./08_longest-consecutive-sequence.js) | Medium | ⬜ | [128](https://leetcode.com/problems/longest-consecutive-sequence/) |
+| 8 | [Longest Consecutive Sequence](./08_longest-consecutive-sequence.js) | Medium | ✅ | [128](https://leetcode.com/problems/longest-consecutive-sequence/) |
 
 ## 📊 Progress
 
 ```
-Total: 8 | Completed: 5 | In Progress: 0 | Remaining: 3
+Total: 8 | Completed: 6 | In Progress: 0 | Remaining: 2
 ```
 
 ## 📂 File Structure
