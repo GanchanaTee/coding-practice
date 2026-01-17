@@ -9,7 +9,7 @@ This directory contains solutions for the Arrays & Hashing problems from the Bli
 | 1 | [Two Sum](./two-sum.js) | Easy | ✅ | [1](https://leetcode.com/problems/two-sum/) |
 | 2 | [Contains Duplicate](./contains-duplicate.js) | Easy | ✅ | [217](https://leetcode.com/problems/contains-duplicate/) |
 | 3 | [Valid Anagram](./valid-anagram.js) | Easy | ⬜ | [242](https://leetcode.com/problems/valid-anagram/) |
-| 4 | [Group Anagrams](./group-anagrams.js) | Medium | ⬜ | [49](https://leetcode.com/problems/group-anagrams/) |
+| 4 | [Group Anagrams](./group-anagrams.js) | Medium | ✅ | [49](https://leetcode.com/problems/group-anagrams/) |
 | 5 | [Top K Frequent Elements](./top-k-frequent-elements.js) | Medium | ✅ | [347](https://leetcode.com/problems/top-k-frequent-elements/) |
 | 6 | [Product of Array Except Self](./product-of-array-except-self.js) | Medium | ⬜ | [238](https://leetcode.com/problems/product-of-array-except-self/) |
 | 7 | [Valid Sudoku](./valid-sudoku.js) | Medium | ⬜ | [36](https://leetcode.com/problems/valid-sudoku/) |
@@ -18,7 +18,7 @@ This directory contains solutions for the Arrays & Hashing problems from the Bli
 ## 📊 Progress
 
 ```
-Total: 8 | Completed: 3 | In Progress: 0 | Remaining: 5
+Total: 8 | Completed: 4 | In Progress: 0 | Remaining: 4
 ```
 
 ## 📂 File Structure

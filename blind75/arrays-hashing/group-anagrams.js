@@ -48,6 +48,24 @@ function groupAnagrams(strs) {
 	// TODO: Implement your solution here
 	// Hint: Use a hash map where key is sorted string or character count
 	// Your code goes here...
+	//
+	//
+	const sortedStrsByLength = strs.toSorted((a, b) => a.length - b.length);
+
+	const anagramsMap = new Map();
+
+	for (const str of strs) {
+		const sortedStr = str.split("").toSorted().join("");
+		if (anagramsMap.has(sortedStr)) {
+			anagramsMap.get(sortedStr).push(str);
+		} else {
+			anagramsMap.set(sortedStr, [str]);
+		}
+	}
+
+	const result = Array.from(anagramsMap.values());
+
+	return result;
 }
 
 // Export for testing
