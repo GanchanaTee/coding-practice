@@ -55,13 +55,13 @@ describe("Product of Array Except Self", () => {
 	// All Negative Numbers
 	test("should handle all negative numbers", () => {
 		const result = productExceptSelf([-1, -1, -1, -1]);
-		const expected = [1, 1, 1, 1];
+		const expected = [-1, -1, -1, -1];
 		expect(result).toEqual(expected);
 	});
 
 	test("should handle consecutive negative numbers", () => {
 		const result = productExceptSelf([-1, -2, -3, -4]);
-		const expected = [24, 12, 8, 6];
+		const expected = [-24, -12, -8, -6];
 		expect(result).toEqual(expected);
 	});
 

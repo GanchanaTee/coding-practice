@@ -52,6 +52,54 @@ function productExceptSelf(nums) {
 	// TODO: Implement your solution here
 	// Hint: Use prefix and suffix products
 	// Your code goes here...
+	//
+	//
+	const numberOfZero = nums.filter((num) => num === 0).length;
+	if (numberOfZero === 1) {
+		const indexOfZero = nums.findIndex((num) => num === 0);
+		const productOfArrayWithoutZero = nums
+			.filter((num) => num !== 0)
+			.reduce((acc, num) => {
+				acc = acc * num;
+				return acc;
+			}, 1);
+		return Array(nums.length)
+			.fill(0)
+			.map((_, index) => {
+				if (index === indexOfZero) {
+					return productOfArrayWithoutZero;
+				}
+				return 0;
+			});
+	}
+	if (numberOfZero > 1) {
+		return Array(nums.length).fill(0);
+	}
+	// //
+	// const totalOfProduct = nums.reduce((acc, num) => {
+	// 	return acc * num;
+	// }, 1);
+	// const result = nums.map((num) => totalOfProduct / num);
+	// return result;
+
+	const n = nums.length;
+	const prefix = new Array(n).fill(1);
+	const suffix = new Array(n).fill(1);
+
+	// Calculate prefix products
+	for (let i = 1; i < n; i++) {
+		prefix[i] = prefix[i - 1] * nums[i - 1];
+	}
+
+	// Calculate suffix products
+	for (let i = n - 2; i >= 0; i--) {
+		suffix[i] = suffix[i + 1] * nums[i + 1];
+	}
+
+	// Combine prefix and suffix
+	return nums.map((_, i) => {
+		return prefix[i] * suffix[i];
+	});
 }
 
 // Export for testing
