@@ -2,11 +2,11 @@
 
 ## Overall Progress
 - **Total Problems:** 75
-- **Completed:** 9
+- **Completed:** 10
 - **In Progress:** 0
 - **Generated:** 8 (All Arrays & Hashing problems ready)
-- **Remaining:** 65
-- **Completion Percentage:** 12%
+- **Remaining:** 64
+- **Completion Percentage:** 13%
 
 ---
 
@@ -31,10 +31,10 @@
 |---------|--------|----------------|
 | Valid Palindrome | ✅ | 2026-01-19 |
 | Two Sum II - Input Array is Sorted | ✅ | 2026-01-19 |
-| 3Sum | ⬜ | - |
+| 3Sum | ✅ | 2026-01-20 |
 | Container With Most Water | ⬜ | - |
 | Trapping Rain Water | ⬜ | - |
-| **Progress:** 2/5 | | |
+| **Progress:** 3/5 | | |
 
 ---
 
