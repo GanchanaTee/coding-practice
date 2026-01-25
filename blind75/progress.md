@@ -2,11 +2,11 @@
 
 ## Overall Progress
 - **Total Problems:** 75
-- **Completed:** 10
+- **Completed:** 11
 - **In Progress:** 0
-- **Generated:** 8 (All Arrays & Hashing problems ready)
-- **Remaining:** 64
-- **Completion Percentage:** 13%
+- **Generated:** 14 (Arrays & Hashing + Two Pointers + Sliding Window)
+- **Remaining:** 63
+- **Completion Percentage:** 15%
 
 ---
 
@@ -41,11 +41,11 @@
 ## Sliding Window (4 problems)
 | Problem | Status | Date Completed |
 |---------|--------|----------------|
-| Best Time to Buy and Sell Stock | ⬜ | - |
+| Best Time to Buy and Sell Stock | ✅ | 2026-01-25 |
 | Longest Substring Without Repeating Characters | ⬜ | - |
 | Longest Repeating Character Replacement | ⬜ | - |
 | Permutation in String | ⬜ | - |
-| **Progress:** 0/4 | | |
+| **Progress:** 1/4 | | |
 
 ---
 
